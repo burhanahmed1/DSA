@@ -172,4 +172,8 @@ string reverse(string const);
 ```
 
 ## 28. StingCompare_Recursive :
-
+Implement a recursive global function stringCompare which compares two character strings
+recursively and:
+1. returns 0 if the two strings are equal.
+2. If the character of the first string at the index, where the first mismatch occurred, is greater in ASCII value; then it returns 1
+3. else it returns -1.
