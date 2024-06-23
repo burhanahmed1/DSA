@@ -95,8 +95,10 @@ Implementation of Singly Linked List with some additional functionalities.
 Implementation of MinHeap with functionalities like ```HeapSort()``` , ```BubbleUp()```, ```BubbleDown``` and etc.
 
 ## 20. MinHeapAdvanced :
+MinHeap with special additional functionalities like ```heapify()```, converting ```BSTtoMinHeap``` and etc.
 
 ## 21. Queue_usingArray :
+
 
 ## 22. Queue_usingStack :
 
