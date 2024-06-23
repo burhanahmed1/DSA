@@ -165,5 +165,11 @@ are balanced expressions, but {()}[) and {(}) are not balanced. In your main fun
 function using the given examples. bool isBalanced(string exp)
 
 ## 27. Stack_withReverseFunction :
+Implement a function reverse which reverses the given string using your stack data
+structure. 
+``` cpp
+string reverse(string const);
+```
 
 ## 28. StingCompare_Recursive :
+
