@@ -43,6 +43,7 @@ C++ BuiltIn Functions for Stack, Queue, and LinkedLists.
 Checking isDifferenceBST if differ. of sum of data of left sub-trees and sum of right sub is equal to that node.
 
 ## 11. DisjointSets_Recursive :
+Checking if two sets are Disjoint using Recursion
 
 ## 12. DoublyLinkedList :
 
