@@ -49,8 +49,10 @@ Checking if two sets are Disjoint using Recursion
 Implementation of Doubly Linked List.
 
 ## 13. DoublyLinkedList_MovingHeadPosition :
+Implementation of Doubly Linked List in such a way that we can change the position of head.
 
 ## 14. Fibonacci_Recursive :
+
 
 ## 15. Hashing :
 
