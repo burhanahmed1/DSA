@@ -92,6 +92,7 @@ Given a single link list of size n which is initialized by numbers from 1 to n i
 Implementation of Singly Linked List with some additional functionalities.
 
 ## 19. MinHeap :
+Implementation of MinHeap with functionalities like ```HeapSort()``` , ```BubbleUp()```, ```BubbleDown``` and etc.
 
 ## 20. MinHeapAdvanced :
 
