@@ -118,6 +118,26 @@ Implement the following functions:
 **NOTE:** you are not allowed to use any array or link list in the queue class.
 
 ## 23. Recursive_Functions :
+1. Write a c++ recursive function to reverse a number.
+``` cpp
+void reverse(int n);
+```
+3. Write a recursive function that takes an integer as input number and returns the sum of the fibonacci series.
+``` cpp
+int fib(int a);
+```
+4. Write a recursive function to find a number in a sorted integer array, return true if number is present else return false. ```bool BinarySearch(int arr[],int num,int first,int last);```
+5. Write a recursive function to reverse a given array.
+ ``` cpp
+int reverseArray(int arr[],int start,int end)
+```
+7. Write a recursive function to compare two char arrays.
+8. Write a recursive function to compare two strings.
+9. A palindrome is a string that reads the same both forward and backward. For example, the string
+"madam" is a palindrome. Write a program that uses a recursive function to check whether a string is
+a palindrome. Your program must contain a value-returning recursive function that returns true if the
+string is a palindrome and false otherwise. Do not use any global variables; use the appropriate
+parameters.
 
 ## 24. Recursive_PetrolandDistance :
 
