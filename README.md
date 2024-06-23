@@ -98,7 +98,13 @@ Implementation of MinHeap with functionalities like ```HeapSort()``` , ```Bubble
 MinHeap with special additional functionalities like ```heapify()```, converting ```BSTtoMinHeap``` and etc.
 
 ## 21. Queue_usingArray :
-
+Implementation of a class Queue Using Array as a circular list
+Implement the following functions
+1. IsFull:
+2. IsEmpty:
+3. Enqueue: Add an element to the queue.
+4. Dequeue: Removes the front element from the queue.
+5. Print: It will print all elements of the queue in FIFO order
 
 ## 22. Queue_usingStack :
 
