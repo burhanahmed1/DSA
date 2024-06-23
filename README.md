@@ -156,6 +156,7 @@ Implement a template Stack Using an Array
 7. ```Stack(int size)``` // Parameterized Constructor. Creates a stack of size = size
 8. ```~Stack()``` // Destructor
    
+   
 ## 26. Stack_withIsBalancedString :
 
 ## 27. Stack_withReverseFunction :
