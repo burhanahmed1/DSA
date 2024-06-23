@@ -83,6 +83,7 @@ Rewrite the class in such a way that it performs Quadratic Probing, i.e., add th
 **Hint :** You have to change ```getNextCandidateIndex(int key, int i)``` method
 
 ## 16. Hashing_FamilyWizard :
+Hashing practical example : FamilyManagementSystem for upto 20 families each of upto 5 members.
 
 ## 17. LinkedList :
 
