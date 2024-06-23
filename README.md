@@ -11,6 +11,9 @@ Implementation of AVL Tree.
 ## 3. BST_FindingSequence:
 Finding a given sequence in a BST.
 
+## 4. BinarySearchTree_1 : 
+Binary Search Tree Class (BST) with Iterative insert and search functionalities.
+
 
 
 
