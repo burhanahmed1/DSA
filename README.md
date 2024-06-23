@@ -21,6 +21,17 @@ Implementation of Binary Search Tree.
 A BST with two values like order pair (x,y) and the name of shape placed at that location/node as data.
 
 ## 7. CircularDoublyLinkedList :
+Implement a Circular Doubly Linked list class having one private data member Node pointer ‘head’.
+1. Implement a nested Node class in the linked list class, having three attributes data, next, previous.
+2. Now implement the following operations for the circular doubly linked list class:
+2. Insert void insertAtHead(int value);
+3. Print Forward void print() const;
+4. Search a value bool Search(T value) const;
+5. Erase a value void erase(T value);
+6. Print backward void printback() const;
+7. Destructor
+8. Insert void insertafter(int key,int value);
+9. Design a manu driven main function which will ask the user to perform any of the above function. Ask for -1 to exit program.
 
 ## 8. CommonAcestorsOfNodes_inBST:
 
