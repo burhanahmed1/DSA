@@ -89,7 +89,7 @@ Hashing practical example : FamilyManagementSystem for upto 20 families each of 
 Given a single link list of size n which is initialized by numbers from 1 to n in random order. User deletes four elements at random from list. Write a function that finds which elements are missing from the list.
 
 ## 18. LinkedList_Advanced :
-
+Implementation of Singly Linked List with some additional functionalities.
 
 ## 19. MinHeap :
 
