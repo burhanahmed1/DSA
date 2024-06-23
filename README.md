@@ -86,8 +86,10 @@ Rewrite the class in such a way that it performs Quadratic Probing, i.e., add th
 Hashing practical example : FamilyManagementSystem for upto 20 families each of upto 5 members.
 
 ## 17. LinkedList :
+Given a single link list of size n which is initialized by numbers from 1 to n in random order. User deletes four elements at random from list. Write a function that finds which elements are missing from the list.
 
 ## 18. LinkedList_Advanced :
+
 
 ## 19. MinHeap :
 
