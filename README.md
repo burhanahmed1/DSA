@@ -55,7 +55,32 @@ Implementation of Doubly Linked List in such a way that we can change the positi
 Implementation of a recursive global function to find the Fibonacci number.
 
 ## 15. Hashing :
+### Question1:
+Implement the two constructors (default and overloaded), and destructor of the class HashTable. 
+1. HashTable(): constructor assigns a capacity of 10 to hashArray.
+2. HashTable(int const capacity): an overloaded constructor that assigns the capacity of given capacity to hashArray. If capacity is less than 1 return error message
+3. ~HashTable(): destructor
 
+### Question2 :
+Now, implement these functions which are given below, and are required for helping in handling collision, and also in insert and delete methods. ```int getNextCandidateIndex(int key, int i)```: a private method that uses linear probing to return the next candidate index for storing the item containing key k. Linear probing means that it will simply add i to the hash value of key. This method does not check whether the candidate index has collision or not.
+```void doubleCapacity()``` A private method which doubles the capacity of hash array and rehashes the existing items (Remember we have a dynamic hash array). Use getNextCandidateIndex method to resolve collision.
+
+### Question3 :
+Implement the public insert function ```void insert(int const key, v const value)```
+1. The insert method inserts the value at its appropriate location. Find the first candidate index of the key using: index= key mod capacity
+2. To resolve hash collision, it will use the function getNextCandidateIndex(key, i) to get the next candidate index. If the candidate index also has collision, then getNextCandidateIndex will be called again with an increment in i. getNextCandidateIndex will be continued to call until we find a valid index. Initially i will be 1.
+3. If the loadFactor becomes 0.75, then it will call the doubleCapacity method to double the capacity of array and rehash the existing items into the new array.
+Hint: To check load factor, the overall formula used will be currentElements >= 0.75 * capacity
+
+### Question4 :
+Implement the following functions for deletion of a given value from the hash table and searching the value in hash table:
+```bool deleteKey(int const key) const;```
+This method deletes the given key. It returns true if the key was found. If the key was not found it returns false. When the key is found, simply set the status of the hashItem containing the key to deleted (value of 1). It also uses status variable to search for the key intelligently ```string get(int const key) const```
+This method returns the value of the key. If the key is not found, it returns a message saying “not found”. It also uses status variable to search for the key intelligently.
+
+### BONUS Question :
+Rewrite the class in such a way that it performs Quadratic Probing, i.e., add the square of i to the hash value of key.
+**Hint :** You have to change ```getNextCandidateIndex(int key, int i)``` method
 
 ## 16. Hashing_FamilyWizard :
 
