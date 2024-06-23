@@ -126,8 +126,11 @@ void reverse(int n);
 ``` cpp
 int fib(int a);
 ```
-4. Write a recursive function to find a number in a sorted integer array, return true if number is present else return false. ```bool BinarySearch(int arr[],int num,int first,int last);```
-5. Write a recursive function to reverse a given array.
+4. Write a recursive function to find a number in a sorted integer array, return true if number is present else return false.
+``` cpp
+bool BinarySearch(int arr[],int num,int first,int last);
+```
+7. Write a recursive function to reverse a given array.
  ``` cpp
 int reverseArray(int arr[],int start,int end)
 ```
@@ -140,6 +143,7 @@ string is a palindrome and false otherwise. Do not use any global variables; use
 parameters.
 
 ## 24. Recursive_PetrolandDistance :
+Recursion practical example of finding the the nearest route to the destination in specific amount of petrol
 
 ## 25. Stack_usingArray :
 
