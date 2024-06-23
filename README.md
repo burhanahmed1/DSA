@@ -98,7 +98,7 @@ Implementation of MinHeap with functionalities like ```HeapSort()``` , ```Bubble
 MinHeap with special additional functionalities like ```heapify()```, converting ```BSTtoMinHeap``` and etc.
 
 ## 21. Queue_usingArray :
-Implementation of a class Queue Using Array as a circular list
+Implementation of a class Queue Using Array as a circular list. 
 Implement the following functions
 1. IsFull:
 2. IsEmpty:
@@ -107,6 +107,15 @@ Implement the following functions
 5. Print: It will print all elements of the queue in FIFO order
 
 ## 22. Queue_usingStack :
+You have to implement a template class queue using stack objects. The private members
+of the Queue class are just stack objects and you can only use operations of stacks.
+Implement the following functions:
+1. IsFull:
+2. IsEmpty:
+3. Enqueue: Add an element in the queue.
+4. Dequeue: Removes a front element from the queue.
+5. Print: It will print all elements of the queue in **FIFO** order
+**NOTE:** you are not allowed to use any array or link list in the queue class.
 
 ## 23. Recursive_Functions :
 
