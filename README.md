@@ -2,13 +2,17 @@
 
 # Files Description
 
-## AVL_NodeCount : 
-Counting nodes while inserting in an AVL tree
+## 1. AVL_NodeCount : 
+Counting nodes while inserting in an AVL tree.
 
-## AVL_Tree : 
-Implementation of AVL Tree
+## 2. AVL_Tree : 
+Implementation of AVL Tree.
 
-## BinarySearchTree_1 : 
-Binary Search Tree Class (BST) with Iterative insert and search functionalities
+## 3. BST_FindingSequence:
+Finding a given sequence in a BST.
+
+
+
+
 
 
