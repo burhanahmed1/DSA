@@ -158,6 +158,11 @@ Implement a template Stack Using an Array
    
    
 ## 26. Stack_withIsBalancedString :
+Given an expression containing opening and closing braces, brackets, and parentheses;
+implement a function “isBalanced” to check whether the given expression is a balanced
+expression or not, using your stack implementation. For example, {[{}{}]}[()], {{}{}}, and []{}()
+are balanced expressions, but {()}[) and {(}) are not balanced. In your main function test your
+function using the given examples. bool isBalanced(string exp)
 
 ## 27. Stack_withReverseFunction :
 
