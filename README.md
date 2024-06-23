@@ -146,12 +146,16 @@ parameters.
 Recursion practical example of finding the the nearest route to the destination in specific amount of petrol
 
 ## 25. Stack_usingArray :
-Implement a recursive global function stringCompare which compares two character strings
-recursively and:
-1. returns 0 if the two strings are equal.
-2. If the character of the first string at the index, where the first mismatch occurred, is greater in ASCII value; then it returns 1
-3. else it returns -1.
-
+Implement a template Stack Using an Array
+1. ```bool Push (T Val)```// Add an element in Stack. Returns False if push operation is unsuccessful otherwise True.
+2. ```bool Pop ()``` // Remove top element from Stack. Returns true if the operation is successful otherwise false if the stack is empty with some error message.
+3. ```bool Top(T&amp;)``` //returns the top element but does not remove it from the stack, the topmost element from the stack via the parameter passed by reference. It returns false via a return statement if there is no element in the stack, else it returns true and assigns the topmost element to the parameter passed by reference.
+4. ```bool IsEmpty()```
+5. ```bool IsFull()```
+6. ```Stack()```  //default constructor. Creates a stack of default size 10
+7. ```Stack(int size)``` // Parameterized Constructor. Creates a stack of size = size
+8. ```~Stack()``` // Destructor
+   
 ## 26. Stack_withIsBalancedString :
 
 ## 27. Stack_withReverseFunction :
